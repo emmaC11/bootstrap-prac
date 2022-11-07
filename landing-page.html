@@ -8,6 +8,15 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 </head>
 
+<!-- STEPS -->
+<!-- 1 - aiming for a mobile first design - we wrap each section in a 'row class'
+2 - then add the 'col-12' class to each one so it is responsive on a mobile device
+3 - for the quotes section, we wan't them to occupy half of the row, so we add col-md-6, md (for small laptops - screens equal to or greater than 992px wide)
+4 - in features section, we only want 2 features to display when medium screen size, so we use 'd-md-none '
+5 - on large screen sizes in the features section, we wan't to be aligned together on one row - sum 12 - we use col-lg-4
+
+note - column class needs to be a direct child of a row, if not this will break responsive design -->
+
 <body>
     <article class="container">
         <!-- Callout -->
